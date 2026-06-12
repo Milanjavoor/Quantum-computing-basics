@@ -189,7 +189,26 @@ Carry = 1
 * Grover's Search Algorithm Simulator
 
 ---
+Quantum Shor Algorithm Simulation (Educational)
 
+This project is a beginner-friendly simulation inspired by Shor's Algorithm using Qiskit. The implementation demonstrates key quantum computing concepts such as superposition, quantum circuits, the Quantum Fourier Transform (QFT), measurement, and classical post-processing for factor extraction.
+
+The program creates a quantum circuit, applies Hadamard gates to generate superposition, performs controlled operations, applies the inverse QFT, and analyzes measurement results to attempt factorization of a composite number. The output is visualized using a histogram of quantum measurement outcomes.
+
+Note: This project is intended for educational purposes and does not implement the full modular exponentiation stage required for a complete and correct implementation of Shor's Algorithm. Instead, it serves as a learning tool for understanding the structure and workflow of quantum factoring algorithms.
+
+Technologies Used
+Python
+Qiskit
+Qiskit Aer Simulator
+NumPy
+Matplotlib
+Learning Objectives
+Understanding quantum circuits
+Working with qubits and superposition
+Applying the Quantum Fourier Transform (QFT)
+Simulating quantum algorithms with Qiskit
+Exploring the principles behind Shor's Algorithm and quantum factorization
 ## Learning Journey
 
 These projects are part of my hands-on learning journey in quantum computing, quantum algorithms, machine learning, cybersecurity, and software development.
