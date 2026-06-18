@@ -133,8 +133,14 @@ Install dependencies:
 
 ```bash
 pip install qiskit qiskit-aer matplotlib
+
 ```
 
+Quantum Sudoku Solver using Grover's Algorithm
+
+A beginner-friendly quantum computing project built with Qiskit that demonstrates how Grover's Search Algorithm can solve a simplified Sudoku puzzle. The project encodes Sudoku constraints into a quantum oracle and uses amplitude amplification through Grover's diffusion operator to increase the probability of measuring valid solutions.
+
+This implementation showcases fundamental quantum computing concepts such as superposition, phase inversion, quantum oracles, and amplitude amplification, providing an intuitive introduction to quantum search and constraint satisfaction problems.
 ---
 
 ## Running the Projects
