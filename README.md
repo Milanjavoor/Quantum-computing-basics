@@ -142,6 +142,30 @@ A beginner-friendly quantum computing project built with Qiskit that demonstrate
 
 This implementation showcases fundamental quantum computing concepts such as superposition, phase inversion, quantum oracles, and amplitude amplification, providing an intuitive introduction to quantum search and constraint satisfaction problems.
 ---
+🔐 Quantum Password Generator using Qiskit
+
+A practical quantum computing project built with Qiskit that generates secure passwords using quantum-generated randomness. Instead of relying on classical pseudo-random number generators, this project leverages qubits in superposition and quantum measurement to produce unpredictable random bits, which are then converted into strong passwords containing letters, numbers, and special characters.
+
+This implementation demonstrates fundamental quantum computing concepts such as superposition, measurement, quantum random number generation (QRNG), and the real-world application of quantum randomness in cybersecurity and password security.
+## Features
+- Quantum Random Number Generation (QRNG)
+- Custom password length selection
+- Supports uppercase and lowercase letters
+- Includes numbers and special characters
+- Built using Qiskit and Aer Simulator
+- Demonstrates real-world quantum computing applications
+
+## Technologies Used
+- Python
+- Qiskit
+- Qiskit Aer
+
+## Quantum Concepts Demonstrated
+- Qubits
+- Superposition
+- Hadamard Gates
+- Quantum Measurement
+- Quantum Random Number Generation (QRNG)
 
 ## Running the Projects
 
