@@ -239,6 +239,22 @@ Working with qubits and superposition
 Applying the Quantum Fourier Transform (QFT)
 Simulating quantum algorithms with Qiskit
 Exploring the principles behind Shor's Algorithm and quantum factorization
+# 📈 Quantum Portfolio Optimization using QAOA-Inspired Circuits
+
+A beginner-friendly quantum finance project built with Qiskit that demonstrates how quantum computing can be applied to portfolio optimization. The project represents investment decisions using qubits, where each qubit corresponds to buying or skipping a stock. By leveraging quantum superposition, all possible portfolio combinations are explored simultaneously.
+
+The implementation uses QAOA-inspired cost and mixer layers to evaluate portfolio quality based on expected returns and risk values. After quantum simulation and measurement, the most probable portfolio is selected as the optimal investment strategy.
+
+This project introduces fundamental concepts in quantum optimization, including superposition, quantum state encoding, cost functions, mixer operations, amplitude manipulation, and the foundations of the Quantum Approximate Optimization Algorithm (QAOA), one of the most promising algorithms for near-term quantum computing applications in finance and optimization.
+## 🚀 Features
+- Portfolio optimization using quantum-inspired techniques
+- QAOA-style cost and mixer layers
+- Simultaneous exploration of multiple portfolio combinations
+- Risk vs Return analysis
+- Portfolio state visualization using histograms
+- Quantum circuit simulation with Qiskit Aer
+
+
 ## Learning Journey
 
 These projects are part of my hands-on learning journey in quantum computing, quantum algorithms, machine learning, cybersecurity, and software development.
