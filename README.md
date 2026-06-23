@@ -253,7 +253,30 @@ This project introduces fundamental concepts in quantum optimization, including 
 - Risk vs Return analysis
 - Portfolio state visualization using histograms
 - Quantum circuit simulation with Qiskit Aer
+# 🧩 Quantum Maze Solver using Grover's Algorithm
 
+A beginner-friendly quantum computing project built with Qiskit that demonstrates how Grover's Search Algorithm can be used to solve a simple maze search problem. Maze cells are encoded as quantum states, and the target cell is marked using a quantum oracle. Grover's diffusion operator then amplifies the probability of the correct solution, allowing the quantum computer to identify the goal cell with high probability after measurement.
+
+## 🚀 Features
+- Quantum maze search simulation
+- Grover's Algorithm implementation
+- Oracle and diffusion operators
+- Quantum state visualization using histograms
+- Qiskit Aer simulation backend
+
+## 🛠️ Technologies Used
+- Python
+- Qiskit
+- Qiskit Aer
+- Matplotlib
+
+## 🧠 Quantum Concepts Demonstrated
+- Qubits
+- Superposition
+- Quantum Measurement
+- Quantum Oracles
+- Amplitude Amplification
+- Grover's Search Algorithm
 
 ## Learning Journey
 
