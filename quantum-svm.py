@@ -41,3 +41,15 @@ from sklearn.svm import SVC
         search=GridSearchCV(SVC(kernel="precomputed",class_weight="balanced"),{"C":[0.1,1,10,100,1000]},cv=5,scoring="roc_auc")
 
         search.fit(k_train,y_train)
+        
+        if best is None or search.best_score_>best["cv_auc"]:
+            best={"cv_auc":search.best_score_,
+                  "model":search.best_estimator_,
+                  "k_test":k_test,
+                  "bandwidth":bandwidth,
+                  "C":search.best_params_["C"]}
+        print(f"""Selected bandwidth:{best['bandwidth']}
+            Selected C:{best['C']}
+            Achieved AUC score{best['cv_auc']}""")
+
+        return best["model"].decision_function(best["k_test"])
